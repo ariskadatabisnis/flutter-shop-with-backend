@@ -1,10 +1,11 @@
-#flutter restapi shop
-#Frontend :
+# flutter restapi shop
+
+## Frontend :
 
 A powerful Http client for Dart, which supports Interceptors, Global configuration, FormData, Request Cancellation, File downloading, Timeout etc.
-## Getting Started
+### Getting Started
 
-- ### Download this package as a library
+#### Download this package as a library
  
     - Depend on it Run this command:
     ```
@@ -24,10 +25,10 @@ A powerful Http client for Dart, which supports Interceptors, Global configurati
     ```
         flutter run -d chrome
     ```
-# Backend
+## Backend
 > CRUD operations Rest api with NODEJS, Express, and Mysql.
 
-### Folder structure
+#### Folder structure
 ```sh
 sidehustle-restapi
 ├── package-lock.json
@@ -54,7 +55,7 @@ sidehustle-restapi
 > `src/controllers` handles the controllers.<br>
 > `src/routes` holds our routing module.
 
-### Getting started
+#### Getting started
 Clone the repository & change to the cloned folder
 
 Install dependencies
@@ -72,7 +73,7 @@ Production
 npm start
 ```
 
-### API Endpoints
+#### API Endpoints
 `GET /api/users` => Get all users <br>
 `GET /api/users/:id` Get a user <br>
 `POST /api/users` => Add a new user <br>
@@ -85,7 +86,7 @@ npm start
 `PUT /api/products/:id` => Update a product <br>
 `DELETE /api/products/:id` => Delete a product <br>
 
-### User schema
+#### User schema
 ```js
 {
   id: int,
@@ -93,7 +94,7 @@ npm start
   phone_number: string
 }
 ```
-### product schema
+#### product schema
 ```js
 {
  id: int,
