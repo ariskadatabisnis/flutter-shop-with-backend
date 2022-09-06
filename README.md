@@ -7,24 +7,24 @@ A powerful Http client for Dart, which supports Interceptors, Global configurati
 
 #### Download this package as a library
  
-    - Depend on it Run this command:
-    ```sh
-        $ flutter pub add dio
-    ```
+Depend on it Run this command:
+```sh
+$ flutter pub add dio
+```
  
-    - This will add a line like this to your package's pubspec.yaml (and run an implicit flutter pub get):
-    ```sh
-        dependencies:
-            dio: ^4.0.4
-    ```
-    - Import it Now in your Dart code, you can use:
-    ```sh
-        import 'package:dio/dio.dart';
-    ```
-    - run as web flutter :
-    ```sh
-        flutter run -d chrome
-    ```
+This will add a line like this to your package's pubspec.yaml (and run an implicit flutter pub get):
+```sh
+dependencies:
+    dio: ^4.0.4
+```
+Import it Now in your Dart code, you can use:
+```sh
+import 'package:dio/dio.dart';
+```
+run as web flutter :
+```sh
+flutter run -d chrome
+```
 ## Backend
 > CRUD operations Rest api with NODEJS, Express, and Mysql.
 
@@ -38,14 +38,14 @@ sidehustle-restapi
     ├── config
     │   └── db.config.js
     ├── controllers
-	│   ├── product.controller.js
+    │   ├── product.controller.js
     │   └── user.controller.js
     ├── models
-	│   ├── product.model.js
+    │   ├── product.model.js
     │   └── user.model.js
     └── routes
-		├── product.routes.js
-		└── user.routes.js
+	├── product.routes.js
+	└── user.routes.js
 ```
 > `package.json` and `package-lock.json` contain metadata about our project.<br>
 > `server.js` is the entry point and contains the logic our server to initialize and start it.<br>
@@ -106,4 +106,3 @@ npm start
  image: String 
 }
 ```
-	
