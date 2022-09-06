@@ -8,21 +8,21 @@ A powerful Http client for Dart, which supports Interceptors, Global configurati
 #### Download this package as a library
  
     - Depend on it Run this command:
-    ```
+    ```sh
         $ flutter pub add dio
     ```
  
     - This will add a line like this to your package's pubspec.yaml (and run an implicit flutter pub get):
-    ```
+    ```sh
         dependencies:
             dio: ^4.0.4
     ```
     - Import it Now in your Dart code, you can use:
-    ```
+    ```sh
         import 'package:dio/dio.dart';
     ```
     - run as web flutter :
-    ```
+    ```sh
         flutter run -d chrome
     ```
 ## Backend
